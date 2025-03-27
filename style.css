@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.box-1{
+    background-color: pink;
+    border: 5px solid rgb(115, 224, 157);
+    font-size: 50px;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #555;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center; 
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header p, section p, article p, aside p, footer p {
+    padding-top: 15px;
+}
+
+
+nav {
+    background-color: #555;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+main section, article {
+    background-color: #f9f9f9;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 14px;
+}
+
+main aside {
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 14px;
+}
+
+main aside ul {
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
